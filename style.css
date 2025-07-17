@@ -1,0 +1,68 @@
+
+#heading{
+    height:20vh;
+    background-color: #003049;
+    color: #faedcd;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 40vh;
+    /* background-color: aqua; */
+}
+#game{
+    height: 40vmin;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5em;
+}
+.box{
+    border-radius:50% ;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    /* border: 2px,solid,black; */
+}
+body{
+    text-align: center;
+    grid-row: none;
+}
+#rock{
+    background-image: url("rock.png");
+    
+}
+#paper{
+    background-image: url("paper.png");
+}
+#Sessior{
+     background-image: url("scissors.png");
+}
+#msg{
+    background-color:#003049;
+    height: 8vmin;
+    color:#faedcd;
+    display: inline-block;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.box:hover {
+    filter: brightness(120%);
+    border:2px solid black;
+}
+.score-conatiner{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+}
+#comp-score,#your-score{
+    font-size: 2rem;
+}
